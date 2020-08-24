@@ -50,7 +50,7 @@ function draw() {
   score = score + Math.round(getFrameRate()/60);
   text("Score: "+ score, 500,50);
   
-  if(keyDown("space") && trex.y>150) {
+  if(keyDown("space") && trex.y>163) {
     trex.velocityY = -10;
   }
   
